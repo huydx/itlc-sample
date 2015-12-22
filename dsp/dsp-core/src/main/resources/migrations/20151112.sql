@@ -1,0 +1,2 @@
+ALTER TABLE advertisers ADD COLUMN budget DECIMAL(10,2) DEFAULT 0;
+ALTER TABLE advertisers ADD COLUMN ctr FLOAT;
